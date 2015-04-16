@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  <servlet>
+		<servlet-name>Home</servlet-name>
+		<servlet-class>website.HomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Breed</servlet-name>
+		<servlet-class>website.BreedServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Breed</servlet-name>
+		<url-pattern>/breed</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Parent</servlet-name>
+		<servlet-class>website.ParentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Parent</servlet-name>
+		<url-pattern>/parent</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Availability</servlet-name>
+		<servlet-class>website.AvailabilityServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Availability</servlet-name>
+		<url-pattern>/availability</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Gallery</servlet-name>
+		<servlet-class>website.GalleryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Gallery</servlet-name>
+		<url-pattern>/gallery</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Contact</servlet-name>
+		<servlet-class>website.ContactServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Contact</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

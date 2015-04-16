@@ -1,0 +1,38 @@
+h1 {
+	font-size: 35px;
+	font-family: Jing Jing;
+}
+
+body {
+	color: white;
+}
+
+.leftAlign {
+	text-align: left;
+}
+
+
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+a {
+	color: red;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+p {
+	padding: 5px;
+}

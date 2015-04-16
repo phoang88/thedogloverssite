@@ -1,0 +1,14 @@
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic
+}
+
+.wrappedImg {
+	padding: 20px;
+}
+
+#references {
+	margin-top: 30px;
+	font-style: italic;
+}

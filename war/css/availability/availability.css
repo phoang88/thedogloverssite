@@ -1,0 +1,28 @@
+.sold {
+	color: red;
+}
+
+.sliderContainer{
+	position: relative;
+	top: 0px;
+	left: 0px; 
+	width: 320px;
+	height: 380px;
+	overflow: hidden;
+}
+
+
+.slides{
+	cursor: move;
+	position:
+	absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.block{
+	margin-top: 500px;	
+}
